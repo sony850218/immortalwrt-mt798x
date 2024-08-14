@@ -441,7 +441,7 @@ TARGET_DEVICES += cmcc_a10
 
 define Device/cmcc_xr30
   DEVICE_VENDOR := CMCC
-  DEVICE_MODEL := RAX3000M NAND
+  DEVICE_MODEL := XR30 NAND
   DEVICE_DTS := mt7981-cmcc-xr30
   DEVICE_DTS_DIR := $(DTS_DIR)/mediatek
   DEVICE_PACKAGES := $(MT7981_USB_PKGS) luci-app-samba4
